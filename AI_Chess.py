@@ -3,12 +3,12 @@ import math
 
 # Piece values used for evaluation
 PIECE_VALUES = {
-    'p': 1,   # pawn
-    'n': 3,   # knight
-    'b': 3,   # bishop
-    'r': 5,   # rook
-    'q': 9,   # queen
-    'k': 0    # king (its value isn't used in evaluation here)
+    'p': 1,   
+    'n': 3,   
+    'b': 3,   
+    'r': 5,  
+    'q': 9,   
+    'k': 0    
 }
 
 def evaluate_board(board):
